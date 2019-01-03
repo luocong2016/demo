@@ -1,0 +1,5 @@
+type Query {
+  projectByName(name: String!): Project
+  fetchTasks: [Task]
+  getTask(id: Int!): Task
+}

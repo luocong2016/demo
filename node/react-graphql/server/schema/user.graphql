@@ -1,0 +1,18 @@
+type User {
+  id: ID
+  name: String
+  age: Int
+  available: Boolean
+  money: Float
+  gender: Gender
+  birthday: Date
+}
+
+enum Gender {
+  FEMALE
+  MALE
+}
+
+extend type Query {
+  user(id: ID!): User
+}

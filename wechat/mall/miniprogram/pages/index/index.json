@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "van-button": "/vant/button/index",
+    "van-area": "/vant/area/index",
+    "van-swipe-cell": "/vant/swipe-cell/index"
+  }
+}

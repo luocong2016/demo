@@ -1,0 +1,22 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-left: 15rpx;
+  padding-right: 15rpx;
+} 
+
+.margin-top {
+  margin-top: 15rpx !important;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.subText {
+  font-size: 14px;
+  color: #898989;
+}
