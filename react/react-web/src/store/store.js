@@ -1,12 +1,12 @@
 import { createStore, combineReducers, applyMiddleware } from 'redux'
 import thunk from 'redux-thunk'
-import * as home from './home/reducer'
+import * as home from '../reduces/home'
+import * as production from '../reduces/production'
 
-let store = createStore(
+export default createStore(
   combineReducers({
-    ...home
+    ...home,
+    ...production
   }),
   applyMiddleware(thunk)
 )
-
-export default store

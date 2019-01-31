@@ -8,6 +8,7 @@ export default class ButtonUI extends Component {
   }
 
   render() {
+    console.log(this)
     return (
       <div>
         <Row>

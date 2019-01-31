@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 
 const SubMenu = Menu.SubMenu
 
-function agentMenu(menu) {
+function agentMenu(menu = [], pathStr = '') {
   return menu.map(item => {
-    const { key, icon, title, hide = false, children } = item
+    const { path, icon, title, hide = false, children } = item
 
     if (hide) {
       return false
@@ -14,7 +14,7 @@ function agentMenu(menu) {
 
     return Array.isArray(children) && children.length > 0 ? (
       <SubMenu
-        key={key}
+        key={path}
         title={
           <span>
             <Icon type={icon} />
@@ -25,7 +25,7 @@ function agentMenu(menu) {
         {agentMenu(children)}
       </SubMenu>
     ) : (
-      <Menu.Item key={key}>
+      <Menu.Item key={path}>
         <Icon type={icon} />
         <span>{title}</span>
       </Menu.Item>

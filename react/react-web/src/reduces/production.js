@@ -1,9 +1,10 @@
+import Immutable from 'immutable'
 import {
   PROCLEARSELECTED,
   PROEDITPRODUCTION,
   PROGETPRODUCTION,
   PROTOGGLESELECT
-} from '../actionType'
+} from '../containers/actionType'
 
 let defaultState = {
   dataList: []

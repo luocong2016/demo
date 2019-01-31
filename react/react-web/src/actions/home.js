@@ -2,7 +2,7 @@ import {
   HOMESAVEFORMDATA,
   HOMESAVEIMG,
   HOMECLEARDATA
-} from '../actionType'
+} from '../containers/actionType'
 
 export const saveFormData = (value, dataType) => ({
   type: HOMESAVEFORMDATA,

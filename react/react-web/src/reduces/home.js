@@ -2,7 +2,7 @@ import {
   HOMESAVEFORMDATA,
   HOMESAVEIMG,
   HOMECLEARDATA
-} from '../../containers/actionType'
+} from '../containers/actionType'
 
 /*
   orderSum 金额

@@ -1,21 +1,21 @@
 export default [
   {
-    key: '/a',
+    path: '/a',
     icon: 'pie-chart',
     title: 'Option a',
     children: [
       {
-        key: '/aa',
+        path: '/aa',
         icon: 'pie-chart',
         title: 'Option aa',
         children: [
           {
-            key: '/bs',
+            path: '/bs',
             icon: 'pie-chart',
             title: 'Option a',
             children: [
               {
-                key: '/basss',
+                path: '/basss',
                 icon: 'pie-chart',
                 title: 'Option baHhHhHhHh'
               }
@@ -26,24 +26,24 @@ export default [
     ]
   },
   {
-    key: '/b',
+    path: '/b',
     icon: 'pie-chart',
     title: 'Option a',
     children: [
       {
-        key: '/ba',
+        path: '/ba',
         icon: 'pie-chart',
         title: 'Option ba'
       }
     ]
   },
   {
-    key: '/c',
+    path: '/c',
     icon: 'pie-chart',
     title: 'Option ca',
     children: [
       {
-        key: '/ca',
+        path: '/ca',
         icon: 'pie-chart',
         title: 'Option ca'
       }

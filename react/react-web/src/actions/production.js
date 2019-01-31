@@ -5,7 +5,7 @@ import {
   PROTOGGLESELECT
 } from '../actionType'
 
-import { getProduction } from '../../api/production'
+import { getProduction } from '../api/production'
 
 export const getProData = () => {
   return async dispatch => {
