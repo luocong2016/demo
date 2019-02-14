@@ -8,7 +8,7 @@ const serverUrl = 'http://localhost:8089/web'
 const setting = {
   serverUrl,
   agent: '/iacb-manage-web',
-  resources: 'dist',
+  resources: 'server',
   port: process.env.PORT || 8089
 }
 
